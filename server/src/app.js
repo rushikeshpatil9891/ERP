@@ -18,4 +18,4 @@ app.use('/api/sales-orders', require('./routes/salesOrders'));
 
 app.use(notFound);
 app.use(errorHandler);
-module.exports = app;
+module.export app;
